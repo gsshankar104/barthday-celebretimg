@@ -1,0 +1,71 @@
+.create-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.create-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.celebration-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.photo-preview {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.photo-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Theme-specific styles */
+.theme-romantic .celebration-form {
+  border-top: 4px solid #ff6b95;
+}
+
+.theme-festive .celebration-form {
+  border-top: 4px solid #ff9933;
+}
+
+.theme-elegant .celebration-form {
+  border-top: 4px solid #6a5acd;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .celebration-form {
+    padding: 1.5rem;
+  }
+}

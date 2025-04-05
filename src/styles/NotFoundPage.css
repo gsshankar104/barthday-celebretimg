@@ -1,0 +1,56 @@
+.not-found-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.not-found-content {
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.not-found-content h1 {
+  font-size: 6rem;
+  margin-bottom: 0;
+  line-height: 1;
+  opacity: 0.2;
+}
+
+.not-found-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.not-found-content p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.home-button {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Theme-specific styles */
+.theme-romantic .home-button {
+  background-color: #ff6b95;
+  color: white;
+}
+
+.theme-festive .home-button {
+  background-color: #ff9933;
+  color: white;
+}
+
+.theme-elegant .home-button {
+  background-color: #6a5acd;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .not-found-content h1 {
+    font-size: 4rem;
+  }
+}
