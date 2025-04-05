@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     host: true
   },
-  base: '/',
+  base: '/barthday-celebretimg/',
   build: {
     outDir: 'dist',
   },
