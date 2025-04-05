@@ -21,8 +21,32 @@
 
 .hero-content p {
   font-size: 1.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   line-height: 1.6;
+}
+
+.highlight-text {
+  font-size: 1.2rem;
+  color: #ff6b95;
+  font-weight: 600;
+  background-color: rgba(255, 107, 149, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-left: 4px solid #ff6b95;
+}
+
+.theme-festive .highlight-text {
+  color: #ff9933;
+  background-color: rgba(255, 153, 51, 0.1);
+  border-left: 4px solid #ff9933;
+}
+
+.theme-elegant .highlight-text {
+  color: #6a5acd;
+  background-color: rgba(106, 90, 205, 0.1);
+  border-left: 4px solid #6a5acd;
 }
 
 .hero-image {
@@ -178,11 +202,11 @@
   .hero-section {
     flex-direction: column;
   }
-  
+
   .hero-content h1 {
     font-size: 2rem;
   }
-  
+
   .steps {
     flex-direction: column;
   }
